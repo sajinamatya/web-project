@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="sajin.css">
+	<title> login form </title>
+	<script type="text/javascript">
+		function validate(){
+			var username = document.getElementById('name').value;
+			var password = document.getElementById('password').value;
+
+			if (username.length == 0 || password.length == 0)
+			{
+				alert("Must enter the fields!");
+				return false;
+			}
+			if (password.length < 8)
+			{
+				alert("Password Must contain 8 characters!");
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+    <a href="file:///C:/Users/Acer/Documents/sajin%20html%20file/webpage/index.html#"> <img src="images.png" width="100px" height="100px" align=" left"> </a>
+    
+<div class="loginbox">
+	
+<img src="avatar.png" class="cool">
+
+<h1>
+	Login Here
+</h1>
+
+<form action="sajin.html" method="POST" onsubmit="return validate()" >
+<p>Username</p>
+<input type="text" id="name"placeholder ="Enter Username">
+<p>Password</p>
+<input type="password" id="password" placeholder="Enter Password">
+<input type="submit" name="" value="Login">
+<a href="#"> sajin is cool? </a><br>
+<a href="#">I am always cool</a>
+
+</form>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
