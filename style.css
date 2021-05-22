@@ -80,7 +80,7 @@
 }
 .text{
     width: 100%;
-    height: 140vh;
+    height: 190vh;
 
   padding: 40px;
   text-align: center;
@@ -94,10 +94,10 @@
 
 }
 .text p{
-  font-size: 25px;
-  font-weight: 100;
+  font-size: 23px;
+  font-weight: 300;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- color: #c4342fbe;
+ color: #f70505;
   border: 1px solid  red;
   padding: 20px 30px;
 
