@@ -12,7 +12,7 @@ body{
 .bar{
   width: 6px;
   height: 60px;
-  background: white;
+  background: black;
   display: inline-block;
   transform-origin: bottom center;
   animation: loading 1.5s ease-in-out infinite;
